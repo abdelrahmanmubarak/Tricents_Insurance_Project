@@ -18,9 +18,9 @@ public class TestBase {
   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
   driver.get("https://sampleapp.tricentis.com/101/");
 }
- /* @AfterSuite
+  @AfterSuite
   public void tearDown(){
       driver.quit();
-  }*/
+  }
 
 }
